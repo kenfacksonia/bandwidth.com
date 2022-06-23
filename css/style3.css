@@ -1,0 +1,196 @@
+/* Annuler les réglages par défaut des navigateurs */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+.html{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+   
+}
+
+body {
+    width: 100%;
+    font-family: 'Overpass',sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .005em;
+    line-height: 22px;
+    
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+
+/* Style principal de la page */
+:root {
+    --main-bg-color: #272b61; /* définir la variable représentant la couleur principale */
+    --black-color: #000;
+    --white-color: #FFF;
+    --secondary-blue-color: #8dd3f6;
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+.header-util > div {
+    background-color: #079CEE;
+    color: var(--black-color);
+    font-size: 14px;
+   
+}
+
+.header-util a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.bg-custom {
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+
+.btn-custom, .btn-custom:hover {
+    background-color: #079cEE;
+    color: #FFF;
+    border-radius: 29px;
+}
+
+a {
+    text-decoration: none !important; 
+    cursor: pointer;
+    background-color: transparent;
+}
+.lien a:hover{
+    color:#fff;
+}
+
+.info a:hover{
+    color: #000;
+}
+.info a{
+    color: #fff;
+}
+.list-group li{
+    color: #000;
+}
+.list-group li:hover{
+    color:#079CEE;
+}
+.grand-titre{
+font-size: 65px;
+line-height: 65px;
+font-weight: 100;
+color: #1c0a14;
+}
+.paragraphe{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.titre{
+    color: #079CEE;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+    }
+    .liste{
+    margin-top:5px;
+    }
+    .list{
+    color: #fff;
+    text-decoration:none;
+    }
+    .paragraph{
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .button{
+        background-color: #079CEE;
+        border-radius: 21px;
+        color: #fff;
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: .1em;
+        line-height: 18px;
+        padding: 12px 30px;
+        margin: 0 10px 10px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: background-color 0.2s;
+        cursor: pointer;
+        position: relative;
+    }
+    .button:hover{
+        background-color: #FFF;
+    }
+    .footer-titre{
+        color: #079CEE;
+        font-size: 14px;
+        font-weight: 900;
+        letter-spacing: .1em;
+        line-height: 18px;
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+    .footer-paragraphe{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .footer-paragraphe a{
+        color: #FFF;
+    }
+    .footer-paragraphe a:hover{
+        color:#079CEE;
+    }
+    .footer-call{
+        margin-top: 15px;
+    }
+    .footer-call a{
+        color: #FFF;
+    }
+    .footer-call a:hover{
+        color: #079CEE;
+    }
+    .logo svg{
+        fill: #FFF;
+    }
