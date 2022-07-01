@@ -1015,3 +1015,14 @@ h3 {
     text-transform: uppercase;
   
 }
+.menu-font {
+    font-size: 14px !important;
+    font-weight: 300;
+}
+.small-text {
+    font-size: 12px !important;
+}
+
+.menu-border {
+    border-right: 1px solid #d8dbe2;
+}
