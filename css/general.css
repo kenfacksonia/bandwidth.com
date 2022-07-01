@@ -1,0 +1,226 @@
+/*
+    Définition des fonts qui pourront être utilisés à savoir: Regular, Light, Bold et Thin
+*/
+@font-face {
+    font-family: Overpass-Regular;
+    src: url(../fonts/static/Overpass-Regular.ttf);
+}
+
+@font-face {
+    font-family: Overpass-Light;
+    src: url(../fonts/static/Overpass-Light.ttf);
+}
+
+@font-face {
+    font-family: Overpass-Bold;
+    src: url(../fonts/static/Overpass-Bold.ttf);
+}
+
+@font-face {
+    font-family: Overpass-Thin;
+    src: url(../fonts/static/Overpass-Thin.ttf);
+}
+
+body {
+    font-family: 'Overpass-Light', sans-serif;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+
+/* Style principal de la page */
+:root {
+    --main-bg-color: #272b61; /* définir la variable représentant la couleur principale */
+    --black-color: #000;
+    --white-color: #FFF;
+    --secondary-blue-color: #8dd3f6;
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px
+}
+
+.list-group-item {
+    border: none;
+    background: transparent;
+}
+/* Annuler les réglages par défaut des navigateurs */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .005em;
+    line-height: 22px;
+}
+
+.font-weight-bold {
+    font-family: 'Overpass-Bold';
+}
+
+.font-weight-thin {
+    font-family: 'Overpass-Thin';
+}
+
+.font-weight-light {
+    font-family: 'Overpass-Light';
+}
+
+.custom-heading {
+    margin: 0 0 16px;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+.c-dropdown-container {
+    position: relative;
+    min-width: 120px;
+}
+
+.list-group-item.c-dropdown-container {
+    padding: 0;
+    
+}
+
+.c-dropdown {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+}
+.c-dropdown a:hover{
+    color: #079CEE;
+}
+.list-group-item a{
+    text-decoration: none;
+}
+
+.c-dropdown-menu {
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.1s 0s, transform 0.1s 0s, visibility 0s 0.1s;
+   
+}
+.c-dropdown li a{
+    color: #000;
+}
+.c-dropdown li a:hover{
+    color: #079CEE;
+}
+
+.vl {
+    border-left: 1px solid #abb8c3;
+    height: 310px;
+    position: absolute;
+    left: 32%;
+    margin-left: -60px;
+    top: 10px;
+      
+  }
+  .cl {
+    border-right: 1px solid #abb8c3;
+    height: 320px;
+    position: absolute;
+    left: 32%;
+    margin-left: 20%;
+    top: 10px;
+      
+  }
+  .hl {
+    border-right: 1px solid #abb8c3;
+    height: 320px;
+    position: absolute;
+    left: 32%;
+    margin-left:41%;
+    top: 10px;
+      
+  }
+  .jl{
+    border-right: 1px solid #d8dbe2;
+    height: 180px;
+    position: absolute;
+    left: 32%;
+    margin-left: 115px;
+    top: 10px;
+
+  }
+  .bl{
+    border-right: 1px solid #d8dbe2;
+    height: 180px;
+    position: absolute;
+    left: 32%;
+    margin-left: 115px;
+    top: 10px;
+
+  }
+.c-btn {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.c-btn:hover + .c-dropdown-menu, .c-dropdown-menu:hover {
+    visibility: visible;
+    background: #FFF;
+    border-radius: 20px;
+    top: 80px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    transform: translateY(0);
+    transition: opacity 0.1s 0s, transform 0.1s 0s, visibility 0s 0s;
+    width: 900%;
+    height: 900%;
+    background-size: 900% 900%;
+    text-align: center;
+    background-position: center center;
+
+
+}
+
+.c-fas {
+    position: absolute;
+    bottom: 35%;
+    right: 10px;
+}
+
+.c-fas::before {
+    content: '\f078';
+}
+
+.c-btn:hover ~ .c-fas::before, .c-dropdown-menu:hover ~ .c-fas::before {
+    content: '\f077';
+}
+
+/*.c-rounded {
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    background-image: url('../images/icon-half-rounded.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    padding: 8px 70px 0;
+    transform: translateY(10px);
+    z-index: -1;
+}*/
+
+.c-btn:hover ~ .c-rounded, .c-dropdown-menu:hover ~ .c-rounded {
+    opacity: 1;
+    visibility: visible;
+}

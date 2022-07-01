@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="description" content="site web bandwidth">
-    <meta name="author" content="DigiPos">
+    <meta name="author" content="bandwidth">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,500;0,600;1,100;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
     <link href="bootstrap-5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-	
+    <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style2.css" />
     <title>Bandwidth—The universal platform for global enterprise communications</title>
 <body class="bg-custom" style="background-image: url('images/fond-image.png'); height:100vh">
@@ -54,22 +54,463 @@
                         <a class="header-logo-link" href="index.html" target="_self" style="display: block; float:left;padding:20px 10px 20px 30px;" aria-current="page">
                             <img src="images/c-logo.svg" alt="logo de bandwidth">
                         </a>
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item me-2" style=" font-size: 15px; font-weight: 600; line-height: 25px;">Products<i class="fa-solid fa-chevron-down"></i> </li>
-                            <li class="list-group-item me-2" style=" font-size: 15px; font-weight: 600; line-height: 25px;">Solutions <i class="fa-solid fa-chevron-down"></i></li>
-                            <li class="list-group-item me-2"style=" font-size: 15px; font-weight: 600; line-height: 25px;">Network</li>
-                            <li class="list-group-item me-2"style=" font-size: 15px; font-weight: 600; line-height: 25px;">Coverage</li>
-                            <li class="list-group-item me-2"style=" font-size: 15px; font-weight: 600; line-height: 25px;">Pricing</li>
-                            <li class="list-group-item me-5"style=" font-size: 15px; font-weight: 600; line-height: 25px;">Resources<i class="fa-solid fa-chevron-down"></i></li>
-                            <div class="col w-50 p-0 rounded-pill me-5">
-                                <button class="btn btn-custom" style="padding-bottom: 6px; padding-top: 6px;"       type="submit">
-                                        try it free
-                                </button>
-                            </div>
+                       
+            <ul class="list-group list-group-horizontal font-weight-bold">
+                <li class="list-group-item me-2 c-dropdown-container">
+                    <div class="c-dropdown">
+                        <a class="btn c-btn">Products</a>
+                        <ul class="c-dropdown-menu" style="list-style: none;">
+                            <li>
+                                <a class="c-dropdown-item" href="#">
+                                        <div class="container">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="col" style="margin-left: -25px;">
+                                                                <img src="images/communication.svg" alt="image de communication" width="26" height="26">
+                                                        </div>
+                                                            <div class="col" style="margin-top: -15px; margin-left: -27%;">
+                                                                <span>
+                                                                    Communication APIs
+                                                                </span>
+                                                            </div>
+                                </a>
+                                <div class="row">
+                                    <div class="col" style="margin-top: 15px;">
+                                        <ul style="list-style: none;">
+                                            <li style="margin-left: -90%;">
+                                                <a href="#" class="font-weight-light" style="font-size: 15px; font-weight: 300;">
+                                                    Voice API
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#"class="font-weight-light" style="margin-left: -75%;">
+                                                    Messaging API
+                                                </a>
+                                                <ul style="list-style: none; margin-bottom: 10px;flex-direction: row;flex-wrap: wrap; display: flex;border: none; margin-left: -55%;">
+                                                    <li style=" width: 50%;font-size: 13px;font-style: italic;line-height: 18px;font-weight: 300;">
+                                                        <a href="#" class="font-weight-light" style="text-decoration: none;min-width: 50%;padding: 4px 4px 4px 0;display: block;">
+                                                            SMS API
+                                                        </a>
+                                                    </li>
+                                                    <li style="margin-left: -15%; width: 50%;font-size: 13px;font-style: italic;line-height: 18px;font-weight: 300;">
+                                                        <a href="#"class="font-weight-light" style="text-decoration: none;min-width: 50%;padding: 4px 4px 4px 0;display: block;">
+                                                            MMS API
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;font-size: 13px;font-style: italic;line-height: 18px;font-weight: 300;">
+                                                        <a href="#" class="font-weight-light" style="margin-left: 17%; text-decoration: none;min-width: 50%;padding: 4px 4px 4px 0;display: block;">
+                                                            Toll-Free SMS
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;font-size: 13px;font-style: italic;line-height: 18px;font-weight: 300;">
+                                                        <a href="#" class="font-weight-light" style="margin-left: -35%; text-decoration: none;min-width: 50%;padding: 4px 4px 4px 0;display: block;">
+                                                            Local A2P
+                                                        </a>
+                                                    </li>
+                                                    <li style="width: 50%;font-size: 13px;font-style: italic;line-height: 18px;font-weight: 300;">
+                                                        <a href="#" class="font-weight-light" style="margin-left: -10%; width: 150%; text-decoration: none;min-width: 50%;padding: 4px 4px 4px 0;display: block;">
+                                                            Group Messaging
+                                                        </a>
+                                                    </li>
+                                                    <li style="margin-left: -17%; width: 50%;font-size: 13px;font-style: italic;line-height: 18px;font-weight: 300;">
+                                                        <a href="#" class="font-weight-light" style=" width: 100%; margin-left: 24%; text-decoration: none;min-width: 50%;padding: 4px 4px 4px 0;display: block;">
+                                                            Short Codes
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li style="box-sizing: border-box;clear: left;padding-right: 15px; margin-left: -48%;">
+                                                <a href="#"  class="font-weight-light" style="font-size: 15px;font-weight: 300;text-decoration: none;padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                    Emergency Calling API
+                                                </a>
+                                            </li>
+                                            <li style="box-sizing: border-box;clear: left;padding-right: 15px; margin-left: -65%;">
+                                                <a href="#"  class=" font-weight-light" style="font-size: 15px;font-weight: 300;text-decoration: none;padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                    <div class="col">
+                                                        <button class="btn btn-custom text-uppercase" type="submit" style="width: 60px; height:30px; font-size: 12px;">
+                                                           New
+                                                        </button>
+                                                        Video API
+                                                    </div>
+                                                   
+                                                </a>
+                                            </li>
+                                            <li style="box-sizing: border-box;clear: left;padding-right: 15px; margin-left: -60%;">
+                                                <a href="#"  class="font-weight-light" style="font-size: 15px;font-weight: 300;text-decoration: none;padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                    WebRTC Calling API
+                                                </a>
+                                            </li>
+                                            <li style="box-sizing: border-box;clear: left;padding-right: 15px; margin-left: -60%;">
+                                                <a href="#"  class="font-weight-light" style="font-size: 15px;font-weight: 300;text-decoration: none;padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                    Authentication API
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                    <div class="vl"></div>
+                                        </div>
+                                        <div class="col" style="margin-left: -10%;">
+                                          <a href="#" class="c-dropdown-item">
+                                                <img src="images/telephone.svg" alt="" width="24" height="34" style="margin-left: 25%; width: 25px; margin-top: 5%;">
+                                                <div class="col" style="margin-left: 25%; margin-top:-12%;">
+                                                        <span>
+                                                            Enterprise Cloud
+                                                        </span>
+                                                </div>
+                                          </a>
+                                        <div class="row">
+                                            <div class="col">
+                                                <ul style="list-style: none; padding:0 0 0 35px;">
+                                                    <li style="box-sizing: border-box;clear: left;padding-right: 15px;">
+                                                        <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                            SIP Trunking
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                            Enterprise 911
+                                                        </a>
+                                                    </li>
+                                                    <li style="box-sizing: border-box;clear: left;margin-left: 13%;">
+                                                        <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                            Duet<sup>®</sup> for Microsoft Teams
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                            Duet for RingCentral
+                                                        </a>
+                                                    </li>
+                                                    <li style="box-sizing: border-box;clear: left;margin-left: 5%;">
+                                                        <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                            <div class="col font-weight-light">
+                                                                <button class="btn btn-custom text-uppercase " type="submit" style="width: 60px; height:30px;font-size: 12px;">
+                                                                   New
+                                                                </button>
+                                                                Duet for Genesys
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li style="box-sizing: border-box;clear: left;margin-right: -20%; margin-left: -15%;">
+                                                        <a href="#"class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                            <div class="col">
+                                                                <button class="btn btn-custom text-uppercase" type="submit" style="width: 60px; height:30px; font-size: 12px;">
+                                                                   New
+                                                                </button>
+                                                                Pindrop Integration 
+                                                            </div> 
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                          </div> 
+                                          <div class="cl" style="margin-left: 18%;"></div>
+                                        </div>
+                                        <div class="col" style="margin-left: -5%;">
+                                            <a href="#" class="font-weight-bold" style="font-size: 15px;font-weight: 800;letter-spacing: .005em;text-decoration: none;text-transform: capitalize;padding: 10px 8px 10px 0;display: block;position: relative;">
+                                                <img src="images/access.svg" alt=" logo d'acces direct" width="27" height="27" style="width: 25px;margin-left:25%;display: block;box-sizing: border-box;float: left;position: absolute;top: 50%;transform: translateY(-50%);">
+                                                <span style="padding:0 0 0 55px;">
+                                                    Direct Access
+                                                </span>
+                                            </a>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <ul style="list-style: none; padding:0 0 0 35px;">
+                                                        <li style="box-sizing: border-box;clear: left;padding-right: 15px;">
+                                                            <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                                VoIP Origination
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;" >
+                                                                VoIP Termination
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;padding-right: 15px;">
+                                                            <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;" >
+                                                                Toll-Free Services
+                                                            </a>
+                                                        </li>
+                                                        <li style="margin-left: 13%; width: 100%;">
+                                                            <a href="#"class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                                International Long Distance
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;padding-right: 15px;">
+                                                            <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                                E911
+                                                            </a>
+                                                        </li>
+                                                        <li style="width: 100%;">
+                                                            <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                                Emergency Location Management
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;padding-right: 15px;">
+                                                            <a href="#" class="font-weight-light" style="font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;">
+                                                                SMS Gateway
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="hl" style="margin-left: 41%;"></div>
+                                        </div>
+                                          <div class="col">
+                                            <a href="#" class="font-weight-bold" style=" margin-left: -15%; font-size: 15px;font-weight: 800;letter-spacing: .005em;text-decoration: none;text-transform: capitalize;padding: 10px 8px 10px 0;display: block;position: relative;">
+                                                <img src="images/services.svg" alt="logo de services-parametre" width="29" height="27"style="width: 25px;margin-left:15%;display: block;box-sizing: border-box;float: left;position: absolute;top: 50%;transform: translateY(-50%);">
+                                                <span style="padding: 0 0 0 70px; margin-left: -30%;">
+                                                    Tools &#038; Services
+                                                </span>
+                                            </a>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <ul style="list-style: none; padding:0 0 0 35px; margin-left: -30%;">
+                                                        <li  style="box-sizing: border-box;clear: left; width: 150%;">
+                                                            <a href="#" class="font-weight-light" style="margin-left: -20%; font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;" >
+                                                                Phone Number Management
+                                                            </a>
+                                                        </li>
+                                                        <li style="width:100%;font-size: 13px;font-style: italic;line-height: 18px;font-weight: 300;">
+                                                            <a href="#" class="font-weight-light" style=" margin-left: -15%; text-decoration: none;min-width: 50%;padding: 4px 4px 4px 0;display: block;">
+                                                                Number Porting
+                                                            </a>
+                                                        </li>
+                                                        <li style="width:100%;font-size: 13px;font-style: italic;line-height: 18px;font-weight: 300;">
+                                                            <a href="#" class="font-weight-light" style=" margin-left: -10%;text-decoration: none;min-width: 50%;padding: 4px 4px 4px 0;display: block;">
+                                                                Number Lookup API
+                                                            </a>
+                                                        </li>
+                                                        <li style="width:100%;font-size: 13px;font-style: italic;line-height: 18px;font-weight: 300;">
+                                                            <a href="#" class="font-weight-light" style="margin-left: -10%; text-decoration: none;min-width: 50%;padding: 4px 4px 4px 0;display: block;">
+                                                                Local Phone Numbers
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"class="font-weight-light" style="margin-left: -5%; font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;" >
+                                                                Caller ID Management
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;padding-right: 25px; width: 100%;">
+                                                            <a href="#"class="font-weight-light" style="margin-left: -27%; font-size: 15px;padding: 6px 3px 6px 0;display: block;position: relative;font-weight: 300;text-decoration: none;" >
+                                                                Insights
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                            </li>
                         </ul>
+                        <i class="fas c-fas"></i>
+                        <!--span!-- class="c-rounded"></!--span!-->
                     </div>
-                </nav>
-    </header> 
+                </li>
+                <li class="list-group-item me-2 c-dropdown-container">
+                    <div class="c-dropdown">
+                        <a class="btn c-btn">Solutions</a>
+                        <ul class="c-dropdown-menu" style="list-style: none; width: 550%; height: 250%; height:200px; background-size:400px 200px;margin-left: -75px;margin-top: 10px;">
+                            <li>
+                                <a class="c-dropdown-item" href="#">    
+                                    <div class="container">
+                                    <div class="row">
+                                      <div class="col">
+                                        <ul style="list-style: none;">
+                                            <li style="width: 300px;box-sizing: border-box;">
+                                                <a href="#" class="font-weight-bold" style="font-size: 15px;font-weight: 800;letter-spacing: .005em;text-decoration: none;text-transform: capitalize;padding: 10px 8px 10px 0;display: block;position: relative;">
+                                                    <img src="images/solutions.svg" alt="logo" width="36" height="26" style="width: 30px;margin-left: -60px;display: block;box-sizing: border-box;float: left;position: absolute;top: 50%;transform: translateY(-50%);">
+                                                    <span class="font-weight-bold" style="padding:0 0 0 35px; margin-left: -105%; font-size: 15px;font-weight: 800;text-transform: capitalize;letter-spacing: .005em; ">
+                                                        Solutions
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="row">
+                                            <div class="col">
+                                                <ul style="list-style: none; padding:0 0 0 35px;">
+                                                    <li style="box-sizing: border-box;clear: left;margin-left:-55%;">
+                                                        <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                            B2C Digital Engagements
+                                                        </a>
+                                                    </li>
+                                                    <li style="margin-left: -40%;">
+                                                        <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                            Communication Service Providers
+                                                        </a>
+                                                    </li>
+                                                    <li style="margin-left: -52%;">
+                                                        <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;" >
+                                                            Enterprise Communications
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="jl" style="margin-left: 17%;"></div>
+                                    </div>
+                                      <div class="col">
+                                            <a href="#" class="font-weight-bold" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                <img src="images/cases.svg" alt="logo" width="28" height="28" style="width: 25px;margin-left: -50%;display: block;box-sizing: border-box;float: left;position: absolute;top: 50%;transform: translateY(-50%);">
+                                                    <span class="font-weight-bold" style="padding:0 0 0 35px; margin-left: -140%; font-size: 15px;font-weight: 800;text-transform: capitalize;letter-spacing: .005em; ">
+                                                        Use Cases
+                                                    </span>
+                                            </a>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <ul style="list-style: none; padding:0 0 0 35px;">
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-88%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                                Text Alerts &#038; Notifications
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-88%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                                Click-to-Call
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-88%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                                Bring Your Own Carrier (BYOC)
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-88%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                                Call Tracking
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-88%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none;display: block;position: relative;">
+                                                                View all use cases
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <i class="fas c-fas"></i>
+                    </div>
+                </li>
+                <li class="list-group-item me-2"> 
+                    <a href="network.html" style="color: #000;" >Network </a>
+                </li>
+                <li class="list-group-item me-2">
+                     <a href="#" style="color: #000;">Coverage </a>
+                </li>
+                <li class="list-group-item me-2">
+                     <a href="#" style="color: #000;">Pricing </a>
+                </li>
+                <li class="list-group-item me-5 c-dropdown-container">
+                    <div class="c-dropdown">
+                        <a class="btn c-btn">Resources</a>
+                        <ul class="c-dropdown-menu" style="width: 500px;  list-style: none; height:200px; background-size:400px 200px;margin-left: -75px;margin-top: 10px;">
+                            <li>
+                                <a class="c-dropdown-item" href="#">
+                                    <div class="container">
+                                        <div class="row">
+                                          <div class="col">
+                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                <img src="images/library.svg" alt=" logo" width="30" height="18" style="width:30px;margin-left:-25px;margin-right: 10px;padding-right: 0;display: block;box-sizing: border-box;float: left;position: absolute;top: 50%;transform: translateY(-50%);">
+                                                <span class="font-weight-bold" style="padding:0 0 0 35px; margin-left: -60%; font-size: 15px;font-weight: 800;text-transform: capitalize;letter-spacing: .005em; ">
+                                                    Resources
+                                                </span>
+                                            </a>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <ul style="list-style: none; padding:0 0 0 35px;">
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-55%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none;display: block;position: relative;">
+                                                                Customers
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-55%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; display: block;position: relative;">
+                                                                Content Library
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-55%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; display: block;position: relative;">
+                                                                Webinars
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-55%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; display: block;position: relative;">
+                                                                Blog
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-55%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; display: block;position: relative;">
+                                                                Release Notes
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-55%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; display: block;position: relative;">
+                                                                Glossary
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-55%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; display: block;position: relative;">
+                                                                Partner Program
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="bl"></div>
+                                          </div>
+                                          <div class="col">
+                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none; padding: 6px 3px 6px 0;display: block;position: relative;">
+                                                <img src="images/sdks.svg" alt=" logo" width="33" height="23" style="width:30px;margin-left:5px;margin-right: 10px;padding-right: 0;display: block;box-sizing: border-box;float: left;position: absolute;top: 50%;transform: translateY(-50%);">
+                                                <span class="font-weight-bold" style="padding:0 0 0 35px; margin-left: -35%; font-size: 15px;font-weight: 800;text-transform: capitalize;letter-spacing: .005em; ">
+                                                    Developers
+                                                </span>
+                                            </a>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <ul style="list-style: none; padding:0 0 0 35px;">
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-27%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none;display: block;position: relative;">
+                                                                Documentation
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-62%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none;display: block;position: relative;">
+                                                                SDKs
+                                                            </a>
+                                                        </li>
+                                                        <li style="box-sizing: border-box;clear: left;margin-left:-14%;">
+                                                            <a href="#" class="font-weight-light" style="font-size:15px;font-weight: 300;text-decoration: none;display: block;position: relative;">
+                                                                Status and Uptime
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <i class="fas c-fas"></i>
+                    </div>
+                </li>
+                <div class="col p-0 rounded-pill me-5">
+                    <button class="btn btn-custom" style="padding-bottom: 6px; padding-top: 6px; width:110%; text-transform: uppercase;"type="submit">
+                        try it free
+                    </button>
+                </div>
+            </ul>
+        </div>
+    </nav>
+</header> 
         <section>
             <div class="container">
                 <div class="row">
